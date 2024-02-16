@@ -1,0 +1,281 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: math;
+}
+/* --------------------START OF TOP NAV BAR---------------- */
+.topNav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px
+}
+.iconImg {
+    width: 30px;
+}
+.rightInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: cursive;
+    border-right: solid black 2px;
+    padding-right: 15px;
+    text-decoration: none;
+    gap: 5px;
+}
+.navLinks:link{
+color: rgb(35, 39, 39)
+}
+.navLinks:visited {
+    color: rgb(15, 104, 163);
+    text-decoration: underline;
+}
+.navLinks:hover {
+    color: green;
+    font-size: 25px;
+}
+.navLinks:last-of-type {
+    border: none;
+}
+/* ---------------- START OF PROFILE INTRO---------------------- */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px 0px;
+    background-image:url(https://resources.owllabs.com/hs-fs/hubfs/fog-3622519_1920-jpg.jpeg?width=882&name=fog-3622519_1920-jpg.jpeg);
+    background-size: 100%;
+    background-position: center;
+}
+.profilePic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 2px black;
+    margin: 10px;
+    position: absolute;
+}
+.profileText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 50px 5px 10px;
+    background-color: rgb(16, 92, 116);
+    color: white;
+    -webkit-text-stroke:.5px;
+    -webkit-text-stroke-color: black;
+    width: 516px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 33px;
+}
+/* --------------------START OF ABOUT ME----------------------------- */
+.aboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+    background-color: antiquewhite;
+}
+.aboutMeText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 524px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+    font-size: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.aboutMeImages{
+    display: flex;
+    flex-direction: row;
+    height: 280px;
+    gap: 30px;
+}
+.meImg{
+    border-radius: 12%;
+    border: solid 1px;
+
+}
+.outerring {
+    background-color: transparent;
+    border: 3px double black;
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+/* --------------------START OF EDUCATION----------------------------- */
+.education {
+    background-color: darkslategray;
+    color: white;
+    padding: 20px 0 0 50px;
+    font-size: 30px;
+}
+.eduTitle {
+    display: flex;
+    justify-content: center;
+}
+.eduImg {
+    width: 175px;
+}
+.syracuse {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.codingdojo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/* --------------------START OF PROJECTS----------------------------- */
+.projTitle {
+    display: flex;
+    color: aliceblue;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    /* background-color:lightgray; */
+    background-image: url(https://i.pinimg.com/originals/5a/c1/29/5ac1296b709f4427d4c7785a322d78a2.png);
+    color: black;
+}
+.projGroup {
+    display: flex;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    gap: 65px;
+}
+.projLink:link {
+    color: aliceblue;
+    -webkit-text-stroke: .5px white;
+}
+.projLink:visited {
+    color: aliceblue;
+    font-size: 40px;
+    -webkit-text-stroke: .5px white;
+}
+/* ----Left Proj---- */
+.projLeft {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.projLeftTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projLeftTop:hover{
+    width: 107%;
+    font-size: 37px;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+}
+.projLeftBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projLeftBottom:hover{
+    width: 107%;
+    font-size: 37px;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+
+}
+/* ----Right Proj---- */
+.projRight {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.projRightTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projRightTop:hover{
+    width: 107%;
+    font-size: 37px;
+    box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(0, 0, 0, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -20px 20px, rgba(0, 0, 0, 0.05) -25px 25px;
+}
+.projRightBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projRightBottom:hover{
+    width: 107%;
+    font-size: 37px;
+    box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(0, 0, 0, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -20px 20px, rgba(0, 0, 0, 0.05) -25px 25px;
+}
+.projImg {
+    object-fit: cover;
+    width: 100%;
+}
+/* -----GITHUB----- */
+.github{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.github:hover{
+    width: 37%;
+    font-size: 40px;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+    margin-bottom: 50px;
+}
+.githubLink:link {
+    color: aliceblue;
+    -webkit-text-stroke: .5px white;
+}
+.githubLink:visited {
+    color: aliceblue;
+    -webkit-text-stroke: .5px white;
+}
+.githubLogo {
+    width: 30%;
+}
+/* --------------------START OF SKILLS----------------------------- */
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://webartdevelopers.com/blog/wp-content/uploads/2020/06/css-particles-background.gif);
+    color: whitesmoke;
+    font-size: 30px;
+}
+.skillsTitle{
+    font-size: 60px;
+}
+.skillsListGroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skillsList {
+    display: flex;
+    gap: 40px;
+}
